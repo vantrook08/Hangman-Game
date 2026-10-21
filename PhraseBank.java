@@ -5,11 +5,8 @@ import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Store a list of phrases. Generally for use with a Hangman program.
- * @author scottm
- *
- */
+// Stores a list of phrases
+
 public class PhraseBank {
 
     private static final String DEFAULT_FILE_NAME = "HangmanMovies.txt";
@@ -22,7 +19,7 @@ public class PhraseBank {
 
     private static final String EMERGENCY_TOPIC = "Band";
 
-    private static final int RANDOM_SEED = 6; // STUDENT VERSION IS 6!!!!
+    private static final int RANDOM_SEED = 6;
 
     private static int alternateSeed = -1;
 
