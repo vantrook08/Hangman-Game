@@ -1,9 +1,5 @@
-/**
- * CS312 Assignment 5 - Hangman
- *
- *  Name: Van Trook, vst379
- *
- */
+//Coded by Van Trook
+
 import java.util.Scanner;
 
 public class Hangman {
@@ -154,7 +150,6 @@ public class Hangman {
 
     // Build the PhraseBank.
     // Creates a set of secret phrases read from a file using the PhraseBank.java class.
-    // ** Do not change this method. **
     public static PhraseBank buildPhraseBank(String[] args) {
         PhraseBank result;
         // If no command line arguments 
@@ -171,7 +166,6 @@ public class Hangman {
 
 
     // Print the intro to the program.
-    // ** Do not change this method **
     public static void intro() {
         System.out.println("This program plays the game of hangman.");
         System.out.println();
