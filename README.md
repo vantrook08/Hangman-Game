@@ -46,4 +46,4 @@ The current phrase is ***** ***** ***
 
 The `PhraseBank` class and the overall project structure were provided by
 the CS312 course staff. I implemented the game logic in `Hangman.java`,
-including [list the methods you wrote, e.g., `playRound`, `getGuess`, `revealLetter`].
+including `playRound`, `getGuess`, `revealLetter', etc.
